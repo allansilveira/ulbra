@@ -1,0 +1,11 @@
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/bin/Debug/netcoreapp2.2/aula_02.deps.json
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/bin/Debug/netcoreapp2.2/aula_02.runtimeconfig.json
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/bin/Debug/netcoreapp2.2/aula_02.runtimeconfig.dev.json
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/bin/Debug/netcoreapp2.2/aula_02.dll
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/bin/Debug/netcoreapp2.2/aula_02.pdb
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/obj/Debug/netcoreapp2.2/aula_02.csprojAssemblyReference.cache
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/obj/Debug/netcoreapp2.2/aula_02.csproj.CoreCompileInputs.cache
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/obj/Debug/netcoreapp2.2/aula_02.AssemblyInfoInputs.cache
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/obj/Debug/netcoreapp2.2/aula_02.AssemblyInfo.cs
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/obj/Debug/netcoreapp2.2/aula_02.dll
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/obj/Debug/netcoreapp2.2/aula_02.pdb
