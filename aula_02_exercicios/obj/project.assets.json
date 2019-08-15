@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/allansilvasilveira/Documents/VSCODE/lpc/aula_02/lpc.csproj",
-      "projectName": "lpc",
-      "projectPath": "/Users/allansilvasilveira/Documents/VSCODE/lpc/aula_02/lpc.csproj",
+      "projectUniqueName": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02_exercicios/aula_02_exercicios.csproj",
+      "projectName": "aula_02_exercicios",
+      "projectPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02_exercicios/aula_02_exercicios.csproj",
       "packagesPath": "/Users/allansilvasilveira/.nuget/packages/",
-      "outputPath": "/Users/allansilvasilveira/Documents/VSCODE/lpc/aula_02/obj/",
+      "outputPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02_exercicios/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

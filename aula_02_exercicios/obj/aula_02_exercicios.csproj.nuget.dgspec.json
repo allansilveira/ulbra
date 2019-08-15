@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/aula_02.csproj": {}
+    "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02_exercicios/aula_02_exercicios.csproj": {}
   },
   "projects": {
-    "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/aula_02.csproj": {
+    "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02_exercicios/aula_02_exercicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/aula_02.csproj",
-        "projectName": "aula_02",
-        "projectPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/aula_02.csproj",
+        "projectUniqueName": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02_exercicios/aula_02_exercicios.csproj",
+        "projectName": "aula_02_exercicios",
+        "projectPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02_exercicios/aula_02_exercicios.csproj",
         "packagesPath": "/Users/allansilvasilveira/.nuget/packages/",
-        "outputPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02/obj/",
+        "outputPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_02_exercicios/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
