@@ -1,0 +1,11 @@
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/bin/Debug/netcoreapp2.2/aula_03_exercicios.deps.json
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/bin/Debug/netcoreapp2.2/aula_03_exercicios.runtimeconfig.json
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/bin/Debug/netcoreapp2.2/aula_03_exercicios.runtimeconfig.dev.json
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/bin/Debug/netcoreapp2.2/aula_03_exercicios.dll
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/bin/Debug/netcoreapp2.2/aula_03_exercicios.pdb
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/obj/Debug/netcoreapp2.2/aula_03_exercicios.csprojAssemblyReference.cache
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/obj/Debug/netcoreapp2.2/aula_03_exercicios.csproj.CoreCompileInputs.cache
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/obj/Debug/netcoreapp2.2/aula_03_exercicios.AssemblyInfoInputs.cache
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/obj/Debug/netcoreapp2.2/aula_03_exercicios.AssemblyInfo.cs
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/obj/Debug/netcoreapp2.2/aula_03_exercicios.dll
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/aula_03_exercicios/obj/Debug/netcoreapp2.2/aula_03_exercicios.pdb
