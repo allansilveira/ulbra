@@ -2961,8 +2961,23 @@
   "RootNamespace": "contaluz",
   "Documents": [
     {
+      "FilePath": "Views/Conta/Create.cshtml",
+      "TargetPath": "Views/Conta/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Conta/Edit.cshtml",
+      "TargetPath": "Views/Conta/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Home/Privacy.cshtml",
       "TargetPath": "Views/Home/Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Conta/Index.cshtml",
+      "TargetPath": "Views/Conta/Index.cshtml",
       "FileKind": "mvc"
     },
     {

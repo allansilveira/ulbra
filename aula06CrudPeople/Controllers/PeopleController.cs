@@ -5,8 +5,7 @@ namespace aula06CrudPeople.Controllers
 {
     public class PeopleController : Controller
     {
-        PersonRepository _repository = 
-            new PersonRepository();
+        PersonRepository _repository = new PersonRepository();
         public IActionResult Index()
         {
             var people = _repository.GetAll();

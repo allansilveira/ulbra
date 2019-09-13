@@ -1,0 +1,53 @@
+@model IEnumerable<contaluz.Models.Light>
+
+    
+</br></br>
+<a href="Conta/Create" class="btn btn-primary">Nova Conta</a>
+</br></br>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.ActionLink("ID", "Index", new { sortField = "id", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("Data Leitura", "Index", new { sortField = "dataLeitura", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("N. Leitura", "Index", new { sortField = "numeroLeitura", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("Kw Gasto", "Index", new { sortField = "kw", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("Valor a Pagar", "Index", new { sortField = "valor", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("Data Pagamento", "Index", new { sortField = "dataPagamento", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("Média Consumo", "Index", new { sortField = "media", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.dataLeitura</td>
+                <td>@item.numeroLeitura</td>
+                <td>@item.kw</td>
+                <td>@item.valor</td>
+                <td>@item.dataPagamento</td>
+                <td>@item.media</td>
+                <td><a class="btn btn-danger" href="Conta/Delete/@item.id">Delete</a></td>
+                <td><a class="btn btn-primary" href="Conta/Edit/@item.id">Editar</a></td>
+            </tr>
+        }
+    </table>
+</div>
