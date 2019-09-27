@@ -1,41 +1,45 @@
 using System.Collections.Generic;
+using System.Linq;
 
 namespace contaluz.Models
 {
-    public class LightRepository
+    public class LightRepository : iLightRepository
     {
-        public static List<Light> conta = new List<Light>();
-    
-        public LightRepository()
-        {           
+        private DataContext context;
+        public LightRepository(DataContext context)
+        {
+            this.context = context;
         }
-
         public void Create(Light light)
         {
-            conta.Add(light);
-        }
-        public List<Light> GetAll()
-        {
-            return conta;
-        }
-        
-        public Light GetById(int id)
-        {
-            return conta.Find(i=>i.id == id);
+            context.Conta.Add(light);
+            context.SaveChanges();
         }
         public void Delete(int id)
         {
-            conta.Remove(GetById(id));
+            context.Conta.Remove(GetById(id));
+            context.SaveChanges();
         }
+        public List<Light> GetAll()
+        {
+            return context.Conta.ToList();
 
+        }
+        public Light GetById(int id)
+        {
+            return context.Conta.SingleOrDefault(x=>x.id==id);
+        }
         public void Update(Light light)
         {
-            var index  = conta.FindIndex(x=>x.id == light.id);
-            conta[index].dataLeitura = light.dataLeitura;
-            conta[index].numeroLeitura = light.numeroLeitura;
-            conta[index].kw = light.kw;
-            conta[index].valor = light.valor;
-            conta[index].dataPagamento = light.dataPagamento;
+            var objLight = GetById(light.id);
+            objLight.dataLeitura = light.dataLeitura;
+            objLight.numeroLeitura = light.numeroLeitura;
+            objLight.kw = light.kw;
+            objLight.valor = light.valor;
+            objLight.dataPagamento = light.dataPagamento;
+            objLight.media = light.media;
+            
+            context.SaveChanges();
         }
     }
 }
