@@ -1,0 +1,47 @@
+@model IEnumerable<Aula13CredPeopleEF.Models.Person>
+    
+</br></br>
+<a href="People/Create" class="btn btn-primary">Nova Pessoa</a>
+</br></br>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.ActionLink("ID", "Index", new { sortField = "id", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("Nome", "Index", new { sortField = "name", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("Endereço", "Index", new { sortField = "address", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("Cidade", "Index", new { sortField = "address", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th>
+                    @Html.ActionLink("Fone", "Index", new { sortField = "phone", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder })
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.name</td>
+                <td>@item.address</td>
+                <td>@item.city</td>
+                <td>@item.phone</td>
+                <td><a class="btn btn-danger"
+                    href="People/Delete/@item.id">Delete</a> </td>
+                <td><a class="btn btn-primary" 
+                    href="People/Edit/@item.id">Editar</a> </td>
+            </tr>
+        }
+    </table>
+</div>
