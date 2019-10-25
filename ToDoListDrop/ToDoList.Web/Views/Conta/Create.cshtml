@@ -42,7 +42,7 @@
             <label for="type">Tipo</label>
             <select class="form-control" name="house.id" required>
                 <option value="" disabled selected>Selecione a tipo</option>
-                @foreach(var type in ViewBag.TypesToDos )
+                @foreach(var type in ViewBag.Houses )
                 {
                     <option value="@type.id">@type.id | @type.nome</option>
                 }
