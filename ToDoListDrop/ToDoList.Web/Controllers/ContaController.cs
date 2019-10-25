@@ -4,47 +4,48 @@ using ToDoList.Repository.Interfaces;
 
 namespace ToDoList.Web.Controllers
 {
-    public class ToDoController : Controller
+    public class ContaController : Controller
     {
-        private ILightRepository repositoryLight;
-        private IHouseRepository repositoryHouse;
-        public ToDoController(ILightRepository repositoryLight, IHouseRepository repositoryHouse)
+        private ILightRepository lightRepository;
+        private IHouseRepository houseRepository;
+        public ContaController(ILightRepository lightRepository, IHouseRepository houseRepository)
         {
-            this.repositoryLight = repositoryLight;
-            this.repositoryHouse = repositoryHouse;
+            this.lightRepository = lightRepository;
+            this.houseRepository = houseRepository;
         }
         public IActionResult Index()
-        {
-            var lights = repositoryLight.GetAll();
-            
-            return View(lights);
-        }
-
+        {  
+            var listaConta = lightRepository.GetAll();
+            return View(listaConta);
+        }  
         public IActionResult Create()
         {
-            ViewBag.Houses = repositoryHouse.GetAll();
+            ViewBag.Houses = houseRepository.GetAll();
             return View();
-        }
-
+        } 
         [HttpPost]
         public IActionResult Create(Light light)
-        {
-            light.house = repositoryHouse.GetById(light.house.id);
-            repositoryLight.Create(light);
+        {      
+            light.house = houseRepository.GetById(light.house.id);
+            lightRepository.Create(light);
             return RedirectToAction("Index");
         }
         public IActionResult Edit(int id)
         {
-            ViewBag.Houses = repositoryHouse.GetAll();
-            var light = repositoryLight.GetById(id);
+            ViewBag.Houses = houseRepository.GetAll();
+            var light = lightRepository.GetById(id);
             return View(light);
-        }
-
+        } 
         [HttpPost]
         public IActionResult Edit(Light light)
-        {
-            light.house = repositoryHouse.GetById(light.house.id);
-            repositoryLight.Update(light);
+        {     
+            light.house = houseRepository.GetById(light.house.id);
+            lightRepository.Update(light);
+            return RedirectToAction("Index");
+        }
+        public IActionResult Delete(int id)
+        {        
+            lightRepository.Delete(id);    
             return RedirectToAction("Index");
         }
     }

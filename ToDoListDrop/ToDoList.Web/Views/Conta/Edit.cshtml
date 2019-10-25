@@ -41,10 +41,10 @@
         <div  class="form-group">
             <label for="type">Tipo</label>
             <select class="form-control" name="house.id" required>
-                <option value="" disabled selected>Selecione a tipo</option>
+                <option value="" disabled>Selecione a tipo</option>
                 @foreach(var type in ViewBag.Houses)
                 {
-                    <option value="@type.id" selected="@(type.id == Model.house.id)">@type.nome</option>
+                    <!option value="@type.id" ="@(type.id == Model.house.id)">@type.nome<!option>
                 }
             </select>
         </div>

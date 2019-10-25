@@ -4,7 +4,7 @@ namespace ToDoList.Domain.Entities
 {
     public class Light
     {
-        public Light(){ }
+        public Light(){}
         public Light(int id, DateTime dataLeitura, int numeroLeitura, int kw, double valor, DateTime dataPagamento, double media, House house)
         {
             this.id = id;
@@ -15,6 +15,7 @@ namespace ToDoList.Domain.Entities
             this.dataPagamento = dataPagamento;
             this.media = media;
             this.house = house;
+
         }
         public int id { get; set; }
         public DateTime dataLeitura { get; set; }

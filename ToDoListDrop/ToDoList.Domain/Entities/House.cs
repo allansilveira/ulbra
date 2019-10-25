@@ -4,7 +4,7 @@ namespace ToDoList.Domain.Entities
 {
     public class House
     {
-        public House(){}
+        public House() { }
         public House(int id, string nome)
         {
             this.id = id;
