@@ -1,0 +1,40 @@
+@model IEnumerable<ToDoList.Domain.Entities.Light>
+
+</br></br>
+<a href="Conta/Create" class="btn btn-primary">Nova Conta</a>
+</br></br>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Data leitura</th>
+                <th>N. Leitura</th>
+                <th>Kw Gasto</th>
+                <th>Valor a Pagar</th>
+                <th>Data Pagamento</th>
+                <th>Média Consumo</th>
+                <th>Imóvel</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.dataLeitura</td>
+                <td>@item.numeroLeitura</td>
+                <td>@item.kw</td>
+                <td>@item.valor</td>
+                <td>@item.dataPagamento</td>
+                <td>@item.media</td>
+                <td>@item.house.nome</td>
+                <td><a class="btn btn-danger" href="Conta/Delete/@item.id">Delete</a></td>
+                <td><a class="btn btn-primary" href="Conta/Edit/@item.id">Editar</a></td>
+            </tr>
+        }
+    </table>
+</div>

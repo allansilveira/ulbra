@@ -1,0 +1,12 @@
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/bin/Debug/netstandard2.0/ToDoList.Repository.deps.json
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/bin/Debug/netstandard2.0/ToDoList.Repository.dll
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/bin/Debug/netstandard2.0/ToDoList.Repository.pdb
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/bin/Debug/netstandard2.0/ToDoList.Domain.dll
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/bin/Debug/netstandard2.0/ToDoList.Domain.pdb
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/obj/Debug/netstandard2.0/ToDoList.Repository.csprojAssemblyReference.cache
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/obj/Debug/netstandard2.0/ToDoList.Repository.csproj.CoreCompileInputs.cache
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/obj/Debug/netstandard2.0/ToDoList.Repository.AssemblyInfoInputs.cache
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/obj/Debug/netstandard2.0/ToDoList.Repository.AssemblyInfo.cs
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/obj/Debug/netstandard2.0/ToDoList.Repository.csproj.CopyComplete
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/obj/Debug/netstandard2.0/ToDoList.Repository.dll
+/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoList/ToDoList.Repository/obj/Debug/netstandard2.0/ToDoList.Repository.pdb
