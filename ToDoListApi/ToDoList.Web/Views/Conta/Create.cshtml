@@ -1,0 +1,55 @@
+@model ToDoList.Domain.Entities.Light
+
+<div class="form-horizontal">
+    <form action="Create" method="Post">
+
+        <div class="form-group">
+            <label>ID</label>
+            <input class="form-control" type="text" name="id"/>
+        </div>
+
+        <div class="form-group">
+            <label>Data Leitura</label>
+            <input class="form-control" type="text" name="dataLeitura"/>
+        </div>
+
+        <div class="form-group">
+            <label>N. Leitura</label>
+            <input class="form-control" type="text" name="numeroLeitura"/>
+        </div>
+
+        <div class="form-group">
+            <label>Kw Gasto</label>
+            <input class="form-control" type="text" name="kw"/>
+        </div>
+
+        <div class="form-group">
+            <label>Valor a Pagar</label>
+            <input class="form-control" type="text" name="valor"/>
+        </div>
+
+        <div class="form-group">
+            <label>Data Pagamento</label>
+            <input class="form-control" type="text" name="dataPagamento"/>
+        </div>
+
+        <div class="form-group">
+            <label>Média Consumo</label>
+            <input class="form-control" type="text" name="media"/>
+        </div>
+
+        <div  class="form-group">
+            <label for="type">Tipo</label>
+            <select class="form-control" name="house.id" required>
+                <option value="" disabled selected>Selecione a tipo</option>
+                @foreach(var type in ViewBag.Houses )
+                {
+                    <option value="@type.id">@type.id | @type.nome</option>
+                }
+            </select>
+        </div>
+
+        <input class="btn btn-primary" type="submit" value="Salvar"/>
+
+    </form>
+</div>

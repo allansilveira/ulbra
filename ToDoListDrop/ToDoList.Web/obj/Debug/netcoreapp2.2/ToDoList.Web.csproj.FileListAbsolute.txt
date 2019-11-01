@@ -72,3 +72,14 @@
 /Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.csproj.CopyComplete
 /Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.dll
 /Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.pdb
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.csprojAssemblyReference.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.csproj.CoreCompileInputs.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.RazorAssemblyInfo.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.RazorAssemblyInfo.cs
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.AssemblyInfoInputs.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.AssemblyInfo.cs
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.TagHelpers.input.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.TagHelpers.output.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.RazorCoreGenerate.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.dll
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Web/obj/Debug/netcoreapp2.2/ToDoList.Web.pdb

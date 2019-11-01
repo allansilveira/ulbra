@@ -16,3 +16,12 @@
 /Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListDrop/ToDoList.Domain/obj/Debug/netstandard2.0/ToDoList.Domain.AssemblyInfo.cs
 /Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListDrop/ToDoList.Domain/obj/Debug/netstandard2.0/ToDoList.Domain.dll
 /Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListDrop/ToDoList.Domain/obj/Debug/netstandard2.0/ToDoList.Domain.pdb
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Domain/bin/Debug/netstandard2.0/ToDoList.Domain.deps.json
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Domain/bin/Debug/netstandard2.0/ToDoList.Domain.dll
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Domain/bin/Debug/netstandard2.0/ToDoList.Domain.pdb
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Domain/obj/Debug/netstandard2.0/ToDoList.Domain.csprojAssemblyReference.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Domain/obj/Debug/netstandard2.0/ToDoList.Domain.csproj.CoreCompileInputs.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Domain/obj/Debug/netstandard2.0/ToDoList.Domain.AssemblyInfoInputs.cache
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Domain/obj/Debug/netstandard2.0/ToDoList.Domain.AssemblyInfo.cs
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Domain/obj/Debug/netstandard2.0/ToDoList.Domain.dll
+/Users/allansilvasilveira/.Trash/ToDoListDrop/ToDoList.Domain/obj/Debug/netstandard2.0/ToDoList.Domain.pdb

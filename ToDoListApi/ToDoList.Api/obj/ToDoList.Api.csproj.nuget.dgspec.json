@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Api/ToDoList.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Api/ToDoList.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Api/ToDoList.Api.csproj",
+        "projectName": "ToDoList.Api",
+        "projectPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Api/ToDoList.Api.csproj",
+        "packagesPath": "/Users/allansilvasilveira/.nuget/packages/",
+        "outputPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/allansilvasilveira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Repository/ToDoList.Repository.csproj": {
+                "projectPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Repository/ToDoList.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Domain/ToDoList.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Domain/ToDoList.Domain.csproj",
+        "projectName": "ToDoList.Domain",
+        "projectPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Domain/ToDoList.Domain.csproj",
+        "packagesPath": "/Users/allansilvasilveira/.nuget/packages/",
+        "outputPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/allansilvasilveira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Repository/ToDoList.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Repository/ToDoList.Repository.csproj",
+        "projectName": "ToDoList.Repository",
+        "projectPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Repository/ToDoList.Repository.csproj",
+        "packagesPath": "/Users/allansilvasilveira/.nuget/packages/",
+        "outputPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/allansilvasilveira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Domain/ToDoList.Domain.csproj": {
+                "projectPath": "/Users/allansilvasilveira/Documents/VSCODE/ulbra/ToDoListApi/ToDoList.Domain/ToDoList.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Tools": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
