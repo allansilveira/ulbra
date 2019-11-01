@@ -10,18 +10,18 @@ namespace ToDoList.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LightsController : ControllerBase
+    public class HousesController : ControllerBase
     {
-        private ILightRepository repository;
+        private IHouseRepository repository;
 
-        public LightsController(ILightRepository repository)
+        public HousesController(IHouseRepository repository)
         {
             this.repository = repository;
         }
 
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<Light>> Get()
+        public ActionResult<IEnumerable<House>> Get()
         {
             var types = repository.GetAll();
             return types;
@@ -29,7 +29,7 @@ namespace ToDoList.Api.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<Light> Get(int id)
+        public ActionResult<House> Get(int id)
         {
             var obj = repository.GetById(id);
             return obj;
@@ -37,8 +37,10 @@ namespace ToDoList.Api.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult Post([FromBody] House house)
         {
+            repository.Create(house);
+            return Ok(house);
         }
 
         // PUT api/values/5
@@ -49,8 +51,16 @@ namespace ToDoList.Api.Controllers
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult Delete(int id)
         {
+            repository.Delete(id);
+            return Ok(
+                new
+                {
+                    mensagem = "Registro removido com sucesso",
+                    codigo = id
+                }
+            );
         }
     }
 }

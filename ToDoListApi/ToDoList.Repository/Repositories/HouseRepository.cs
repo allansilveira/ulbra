@@ -19,7 +19,8 @@ namespace ToDoList.Repository.Repositories
         }
         public void Delete(int id)
         {
-            throw new System.NotImplementedException();
+            context.Imovel.Remove(GetById(id));
+            context.SaveChanges();
         }
         public List<House> GetAll()
         {
